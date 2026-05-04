@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.TopButton {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:50vh;
+    left:70vw;
+}
+
+.TopButton i {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    color: #3f97fb;
+    top:80vh;
+    left:95vw;
+}
+
+.TopButton i:hover {
+    color: #0b3f88;
+
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:1040px) {
+    .TopButton i {
+        width: 150px;
+        height: 150px;
+        left:93vw;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:940px) {
+    .TopButton i {
+        width: 150px;
+        height: 150px;
+        left:90vw;
+    }
+
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:480px) {
+    .TopButton i {
+        display: none;
+    }
+
+}
+
+
+
