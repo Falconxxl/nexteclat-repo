@@ -36,6 +36,8 @@ import ArchiveVideoReel from "../Layout/ArchiveVideoReel";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 
+// eslint-disable-next-line no-unused-vars
+
 const projects = [
     {
         img: null, // sera remplacé par compo_webdesign_laptop1
@@ -58,7 +60,6 @@ const projects = [
 ];
 
 const projectImages = [compo_webdesign_laptop1, compo_webdesign_laptop2, compo_webdesign_laptop3];
-
 
 
 function Projects() {

@@ -3,6 +3,7 @@ import "./ArchiveVideoReel.css";
 import { useTranslation } from "react-i18next";
 
 function ArchiveVideoReel() {
+    // eslint-disable-next-line no-unused-vars
     const [isMobile, setIsMobile] = useState(false);
     const { t } = useTranslation();
 

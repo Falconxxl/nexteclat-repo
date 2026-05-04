@@ -24,6 +24,8 @@ import RequestAQuote from "../Components/RequestAQuote";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 
+// eslint-disable-next-line no-unused-vars
+
 const projects = [
     {
         img: null, // sera remplacé par compo_webdesign_laptop1
