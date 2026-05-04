@@ -36,28 +36,7 @@ import ArchiveVideoReel from "../Layout/ArchiveVideoReel";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 
-// eslint-disable-next-line no-unused-vars
 
-const projects = [
-    {
-        img: null, // sera remplacé par compo_webdesign_laptop1
-        title: "NextEclat",
-        description:
-            "NextEclat est un site vitrine d'une entreprise digitale qui aide les entrepreneurs, artistes et influenceurs à gagner en visibilité et en crédibilité. Elle propose des solutions complètes en branding, web design, production audiovisuelle et création de contenu digital.",
-    },
-    {
-        img: null, // sera remplacé par compo_webdesign_laptop2
-        title: "Falcon Beat",
-        description:
-            "Falcon Beats est une plateforme dédiée aux artistes et créateurs musicaux à la recherche de beats professionnels de haute qualité. Les utilisateurs peuvent explorer, acheter et télécharger des instrumentaux variés adaptés à différents styles musicaux, accessibles partout dans le monde.",
-    },
-    {
-        img: null, // sera remplacé par compo_webdesign_laptop3
-        title: "Cirus FP",
-        description:
-            "Cirus FP est une entreprise spécialisée dans la production et la distribution de grands drapeaux et supports visuels de grande dimension. Elle propose des solutions adaptées aux besoins de communication visuelle à grande échelle.",
-    },
-];
 
 const projectImages = [compo_webdesign_laptop1, compo_webdesign_laptop2, compo_webdesign_laptop3];
 
