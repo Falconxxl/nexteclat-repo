@@ -108,8 +108,8 @@
     }
   },
   "ContainerBanner2": {
-    "Title": "Uw imago, onze expertise",
-    "Subtitleline1": "Wij helpen ondernemers, artiesten en influencers zichtbaar en geloofwaardig te worden via digitale oplossingen op het gebied van branding, web, design, audiovisueel en creatieve content.",
+    "Title": "Uw imago mist impact",
+    "Subtitleline1": "Wij helpen ondernemers, artiesten en influencers een sterk, zichtbaar en geloofwaardig imago op te bouwen. Via digitale oplossingen in branding, webdesign, audiovisuele productie en contentcreatie geven we betekenisvolle merken vorm.",
     "Subtitleline2": "",
     "Subtitleline3": "",
     "CatBouton": "Vraag een offerte aan",
@@ -509,7 +509,7 @@
     "BigTitle": "Transformeer uw visie in uitzonderlijke beelden",
     "Lifestyle": {
       "Title": "Lifestyle",
-      "Content": "Een blik op enkele authentieke en oprechte momenten die we hebben vastgelegd tijdens huwelijksdagen."
+      "Content": "Hier zijn enkele authentieke momenten die we hebben vastgelegd tijdens onze fotoshoots."
     },
     "Fashion": {
       "Title": "Mode",
@@ -517,7 +517,7 @@
     },
     "Wedding": {
       "Title": "Huwelijk",
-      "Content": "Hier zijn enkele authentieke momenten die we hebben vastgelegd tijdens onze fotoshoots."
+      "Content": "Een blik op enkele authentieke en oprechte momenten die we hebben vastgelegd tijdens huwelijksdagen."
     },
     "Music": {
       "Title": "Muziek",

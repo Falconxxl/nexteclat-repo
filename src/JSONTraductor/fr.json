@@ -110,8 +110,8 @@
   },
 
   "ContainerBanner2": {
-    "Title": "Votre image, notre expertise",
-    "Subtitleline1": "Nous aidons entrepreneurs, artistes et influenceurs à devenir visibles et crédibles grâce à des solutions digitales en branding, web, design, audiovisuel et contenu créatif.",
+    "Title": "Votre image manque d'impact",
+    "Subtitleline1": "Nous aidons les entrepreneurs, artistes et influenceurs à construire une image forte, visible et crédible. Grâce à des solutions digitales en branding, web design, audiovisuel et création de contenu.",
     "Subtitleline2": "",
     "Subtitleline3": "",
     "CatBouton": "Demander un devis",
@@ -563,7 +563,7 @@
 
     "Lifestyle": {
       "Title": "Lifestyle",
-      "Content": "Un aperçu de moments authentiques et remplis d’émotion que nous avons capturés lors de journées de mariage."
+      "Content": "Voici quelques moments authentiques capturés lors de nos séances photo."
     },
 
     "Fashion": {
@@ -573,7 +573,7 @@
 
     "Wedding": {
       "Title": "Mariage",
-      "Content": "Voici quelques moments authentiques capturés lors de nos séances photo."
+      "Content": "Un aperçu de moments authentiques et remplis d’émotion que nous avons capturés lors de journées de mariage."
     },
 
     "Music": {

@@ -31,7 +31,7 @@
     },
     "Shop": {
       "title": "NextÉclat — Shop | Coming Soon",
-      "description": "The Falcon XXL shop is coming soon. Stay tuned to discover our products and exclusive offers."
+      "description": "The NextÉclat shop is coming soon. Stay tuned to discover our products and exclusive offers."
     },
     "Trainings": {
       "title": "NextÉclat — Training | Coming Soon",
@@ -111,8 +111,8 @@
   },
 
   "ContainerBanner2": {
-    "Title": "Your image, our expertise",
-    "Subtitleline1": "We help entrepreneurs, artists and influencers become visible and credible through digital solutions in branding, web, design, audiovisual and creative content.",
+    "Title": "Your image lacks impact",
+    "Subtitleline1": "We help entrepreneurs, artists, and influencers build a strong, visible, and credible image. Through digital solutions in branding, web design, audiovisual production, and content creation.",
     "Subtitleline2": "",
     "Subtitleline3": "",
     "CatBouton": "Request a free quote",
@@ -518,7 +518,7 @@
     "BigTitle": "Discover Our Photography",
     "Lifestyle": {
       "Title": "Lifestyle",
-      "Content": "A glimpse into some of the authentic and heartfelt moments we’ve captured on wedding days."
+      "Content": "Here are some authentic moments we’ve captured from our photoshoots."
     },
     "Fashion": {
       "Title": "Fashion",
@@ -526,7 +526,7 @@
     },
     "Wedding": {
       "Title": "Wedding",
-      "Content": "Here are some authentic moments we’ve captured from our photoshoots."
+      "Content": "A glimpse into some of the authentic and heartfelt moments we’ve captured on wedding days."
     },
     "Music": {
       "Title": "Music",

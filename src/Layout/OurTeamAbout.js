@@ -1,9 +1,9 @@
 import './OurTeamAbout.css';
 import React from "react";
-import pic_anita from "../Images/pic_about_anita";
-import pic_antony from "../Images/pic_about_Pino.png";
-import pic_mike from "../Images/pic_about_mike";
-import pic_chloe from "../Images/pic_about_chloe";
+import pic_anita from "../Images/pic_about_anita1.jpg";
+import pic_antony from "../Images/pic_about_Pino1.jpg";
+import pic_mike from "../Images/pic_about_mike1.jpg";
+import pic_chloe from "../Images/pic_about_chloe1.jpg";
 import { useTranslation } from "react-i18next";
 
 function OurTeamAbout() {

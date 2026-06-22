@@ -1,8 +1,8 @@
 import './ServiceHome.css';
 import React, { useState } from "react";
 
-import Wedding_home from "../Images/Slopez.jpg";
-import Wedding_home2 from "../Images/photography_brenda1a.png";
+import Wedding_home from "../Images/Slopez2.jpg";
+import Wedding_home2 from "../Images/photography_brenda1a.jpg";
 import laptops_home from "../Images/laptops_home8g.jpg";
 import Branding_home from "../Images/Branding_home8a.png";
 import Social_media from "../Images/Media_social2.jpg";
@@ -77,8 +77,12 @@ function ServiceHome() {
                         </NavLink>
                     </div>
 
-                    <NavLink to='/Webdesign' className="media-Container-ServiceHome-single">
+                    <NavLink to='/Webdesign'
+                             // className="media-Container-ServiceHome-single-y"
+                             className="media-Container-ServiceHome-single-y"
+                    >
                         <img src={laptops_home} alt="" className="image-mike_brenda-home" />
+
                     </NavLink>
                 </div>
 
@@ -102,11 +106,8 @@ function ServiceHome() {
                     </div>
 
                     <div className="media-Container-ServiceHome-single-x">
-                        <button
-                            onClick={() => setOpenModal(true)}
-                            className="media-Container-ServiceHome-single-x"
-                        >
-                            <img src={Wedding_home} alt="" className="image-mike_brenda-home-x" />
+                        <button onClick={() => setOpenModal(true)} className="media-Container-ServiceHome-single">
+                            <img src={Wedding_home} alt="" className="image-mike_brenda-home" />
                         </button>
                     </div>
                 </div>
@@ -132,7 +133,7 @@ function ServiceHome() {
 
                     <div className="media-Container-ServiceHome-single-x">
                         <NavLink to="/Photography"
-                            className="media-Container-ServiceHome-single-x"
+                                 className="media-Container-ServiceHome-single"
                         >
                             <img src={Wedding_home2} alt="" className="image-mike_brenda-home-x" />
                         </NavLink>
@@ -160,7 +161,7 @@ function ServiceHome() {
 
                     <div className="media-Container-ServiceHome-single-x">
                         <NavLink to="/DigitalMarketing"
-                            className="media-Container-ServiceHome-single-x"
+                                 className="media-Container-ServiceHome-single"
                         >
                             <img src={Social_media} alt="" className="image-mike_brenda-home-x" />
                         </NavLink>
@@ -197,7 +198,7 @@ function ServiceHome() {
                         </NavLink>
                     </div>
 
-                    <NavLink to='/Music' className="media-Container-ServiceHome-single-x">
+                    <NavLink to='/Music' className="media-Container-ServiceHome-single">
                         <img src={logic_guitare_home} alt="" className="image-mike_brenda-home-x" />
                     </NavLink>
                 </div>

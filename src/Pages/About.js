@@ -16,7 +16,7 @@ import PageLoader from "../Components/PageLoader";
 import RequestAQuoteModal from "../Components/Modal/RequestAQuoteModal";
 import RequestAQuote from "../Components/RequestAQuote";
 
-import Michea_pic_about from "../Images/michael_pic1.png";
+import Michea_pic_about from "../Images/michael_pic1.jpg";
 import pic_about_tel1 from "../Images/pic_about_tel1b.jpg";
 import WhyUs from "../Layout/WhyUs";
 import CertificationMichael from "../Layout/CertificationMichael";

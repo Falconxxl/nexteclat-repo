@@ -6,7 +6,7 @@ import video_boucle_banner_mobile from "../../src/MyVideos/Banner_Site_ boucle (
 import video_drone from "../../src/MyVideos/DRONE_SHOT_VIDEO_correct2.mp4";
 import video_drone_mobile from "../../src/MyVideos/DRONE_SHOT_VIDEO (Mobile 32 MB).mp4";
 
-import mike_direction_image from "../../src/Images/mike_direction_audiovisual.png";
+import mike_direction_image from "../../src/Images/mike_direction_audiovisual1.jpg";
 
 import { Link } from "react-scroll";
 import NavbarMenu from "../Layout/NavbarMenu";

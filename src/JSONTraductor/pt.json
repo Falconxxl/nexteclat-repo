@@ -108,8 +108,8 @@
     }
   },
   "ContainerBanner2": {
-    "Title": "Sua imagem, nossa expertise",
-    "Subtitleline1": "Ajudamos empreendedores, artistas e influenciadores a se tornarem visíveis e credíveis por meio de soluções digitais em branding, web, design, audiovisual e conteúdo criativo.",
+    "Title": "Sua imagem não impacta",
+    "Subtitleline1": "Ajudamos empreendedores, artistas e influenciadores a construir uma imagem forte, visível e credível. Através de soluções digitais em branding, web design, produção audiovisual e criação de conteúdo, damos vida a marcas com significado.",
     "Subtitleline2": "",
     "Subtitleline3": "",
     "CatBouton": "Solicitar um orçamento",
@@ -510,7 +510,7 @@
     "BigTitle": "Transforme a sua visão em imagens excecionais",
     "Lifestyle": {
       "Title": "Lifestyle",
-      "Content": "Um vislumbre de alguns dos momentos autênticos e cheios de emoção que capturámos em dias de casamento."
+      "Content": "Aqui estão alguns momentos autênticos que capturámos durante as nossas sessões fotográficas."
     },
     "Fashion": {
       "Title": "Moda",
@@ -518,7 +518,7 @@
     },
     "Wedding": {
       "Title": "Casamento",
-      "Content": "Aqui estão alguns momentos autênticos que capturámos durante as nossas sessões fotográficas."
+      "Content": "Um vislumbre de alguns dos momentos autênticos e cheios de emoção que capturámos em dias de casamento."
     },
     "Music": {
       "Title": "Música",

@@ -6,12 +6,12 @@ import Footer from "../Layout/Footer";
 import NavbarMenuMobile from "../Layout/NavbarMenuMobile";
 // import Navbar2 from "../Layout/Navbar2";
 
-import desktop_banner_photograhy from "../Images/background_Brenda_blue2.jpg";
-import mobile_banner from "../Images/background_Brenda_blue_mobile4.jpg";
+import desktop_banner_photograhy from "../Images/background_Brenda_blue2b.jpg";
+import mobile_banner from "../Images/background_Brenda_blue_mobile4a.jpg";
 
 
-import batemburgpic from "../Images/Batemburg_photography_models";
-import mike_direction_photo from "../Images/mike_photography_model2";
+import batemburgpic from "../Images/Batemburg_photography_models.jpg";
+import mike_direction_photo from "../Images/mike_photography_model2a.jpg";
 
 
 import { Link } from "react-scroll";

@@ -1,30 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./PhotographyGallery.css";
 
-import photography_nahile from "../../src/Images/photography_nahile1.png";
-import photography_brenda1 from "../../src/Images/photography_brenda1";
+import photography_nahile from "../../src/Images/photography_nahile1.jpg";
+import photography_brenda1 from "../../src/Images/photography_brenda1a.jpg";
 import photography_falconxxl_background from "../../src/Images/photography_falconxxl_background.png";
 import mikeElenore2 from "../../src/Images/photography_mikeElenore3.jpg";
 
-import photography_fashion1 from "../../src/Images/photography_fashion1a.jpg";
-import photography_fashion2 from "../../src/Images/photography_fashion3.jpg";
+import photography_fashion1 from "../../src/Images/photography_fashion1b.jpg";
+import photography_fashion2 from "../../src/Images/photography_fashion3a.jpg";
 import photography_fashion3 from "../../src/Images/photography_fashion3";
-import photography_fashion4 from "../../src/Images/photography_fashion4.png";
+import photography_fashion4 from "../../src/Images/photography_fashion5.jpg";
 
-import photography_wedding1 from "../../src/Images/photography_wedding1.png";
-import photography_wedding2 from "../../src/Images/photography_wedding2.png";
-import photography_wedding3 from "../../src/Images/photography_wedding3.png";
-import photography_wedding4 from "../../src/Images/photography_wedding4.png";
+import photography_wedding1 from "../../src/Images/photography_wedding1a.jpg";
+import photography_wedding2 from "../../src/Images/photography_wedding2a.jpg";
+import photography_wedding3 from "../../src/Images/photography_wedding3a.jpg";
+import photography_wedding4 from "../../src/Images/photography_wedding4a.jpg";
 
 import senecaElenore from "../../src/Images/photography_seneca_elenore4.png";
-import mikeElenore1 from "../../src/Images/photography_mike_elenore1.png";
+import mikeElenore1 from "../../src/Images/photography_mike_elenore1a.jpg";
 import mikeSergio from "../../src/Images/photography_mike_sergio";
 import mikeSergio2 from "../../src/Images/photography_mike_sergio2";
 
-import photography_emotive1 from "../../src/Images/photography_emotive1.png";
-import photography_emotive2 from "../../src/Images/photography_emotive2.png";
-import photography_emotive3 from "../../src/Images/photography_emotive3.png";
-import photography_emotive5 from "../../src/Images/photography_emotive5.png";
 import { useTranslation } from "react-i18next";
 
 // ─────────────────────────────────────────────
@@ -102,17 +98,17 @@ function PhotographyGallery() {
                 mikeElenore1,
             ],
         },
-        {
-            id: "emotivePortraits",
-            title: t("PhotographyGallery.EmotivePortraits.Title"),
-            subtitle: t("PhotographyGallery.EmotivePortraits.Content"),
-            images: [
-                photography_emotive1,
-                photography_emotive5,
-                photography_emotive2,
-                photography_emotive3,
-            ],
-        },
+        // {
+        //     id: "emotivePortraits",
+        //     title: t("PhotographyGallery.EmotivePortraits.Title"),
+        //     subtitle: t("PhotographyGallery.EmotivePortraits.Content"),
+        //     images: [
+        //         photography_emotive1,
+        //         photography_emotive5,
+        //         photography_emotive2,
+        //         photography_emotive3,
+        //     ],
+        // },
     ];
 
     const [isOpen, setIsOpen] = useState(false);

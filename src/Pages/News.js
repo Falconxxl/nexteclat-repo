@@ -156,28 +156,28 @@ function News() {
 
             {/*----------------FalconXXL (Bientot à Kinshasa)-----------------*/}
 
-            <section className="kinshasa-wrapper">
-                <div className="kinshasa-container">
+            {/*<section className="kinshasa-wrapper">*/}
+            {/*    <div className="kinshasa-container">*/}
 
-                    {/* Image à gauche */}
-                    <div className="kinshasa-image">
-                        <img src={sozacom} alt="Projet Kinshasa" />
-                    </div>
+            {/*        /!* Image à gauche *!/*/}
+            {/*        <div className="kinshasa-image">*/}
+            {/*            <img src={sozacom} alt="Projet Kinshasa" />*/}
+            {/*        </div>*/}
 
-                    {/* Textes à droite */}
-                    <div className="kinshasa-content">
-                        <h2 className="kinshasa-title"
-                        style={{color:"black"}}> {t("Page-news.Kinshasa.Title")}</h2>
-                        <p className="kinshasa-text">
-                            {t("Page-news.Kinshasa.ContentLine1")}
-                        </p>
-                        <p className="kinshasa-text">
-                            {t("Page-news.Kinshasa.ContentLine2")}
-                        </p>
-                    </div>
+            {/*        /!* Textes à droite *!/*/}
+            {/*        <div className="kinshasa-content">*/}
+            {/*            <h2 className="kinshasa-title"*/}
+            {/*            style={{color:"black"}}> {t("Page-news.Kinshasa.Title")}</h2>*/}
+            {/*            <p className="kinshasa-text">*/}
+            {/*                {t("Page-news.Kinshasa.ContentLine1")}*/}
+            {/*            </p>*/}
+            {/*            <p className="kinshasa-text">*/}
+            {/*                {t("Page-news.Kinshasa.ContentLine2")}*/}
+            {/*            </p>*/}
+            {/*        </div>*/}
 
-                </div>
-            </section>
+            {/*    </div>*/}
+            {/*</section>*/}
 
 
 
