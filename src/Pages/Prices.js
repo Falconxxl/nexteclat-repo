@@ -19,6 +19,8 @@ import RequestAQuote from "../Components/RequestAQuote";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import PricingMusic from "../Layout/PricingMusic";
 import { useTranslation } from "react-i18next";
+import Experience from "../Layout/Experience";
+import Testimony from "../Layout/Testimony";
 
 
 function Prices() {
@@ -107,6 +109,8 @@ function Prices() {
                     </div>
                 )}
             </div>
+        <Experience/>
+        <Testimony/>
             <WhatsappFunction/>
             <Footer />
         </div>

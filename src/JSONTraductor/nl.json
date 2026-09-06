@@ -245,6 +245,14 @@
       "ContentLine3": "Oplevering van de definitieve bestanden en ondersteuning na levering."
     }
   },
+
+  "Experience": {
+    "years": "Jaar creatieve ervaring",
+    "experts": "Gecombineerde creatieve expertise",
+    "solutions": "Oplossingen op maat",
+    "projects": "Beheerste tools & technologieën"
+  },
+
   "WhyUs": {
     "Title": "Waarom kiezen voor NextEclat?",
     "Audiovisual": {
@@ -292,6 +300,50 @@
       "ContentLine4": "Feedback van de klant wordt in elke fase verwerkt om het eindresultaat te verfijnen."
     }
   },
+
+  "Testimony": {
+    "eyebrow": "Getuigenissen van onze klanten",
+    "subtitle": "Ontdek de reacties van bedrijven die voor Jupiter Safe kozen om hun QHSE-prestaties en regelgevingsconformiteit te versterken.",
+    "items": {
+      "id1": {
+        "city": "Nederland",
+        "project": "Branding + Website",
+        "review": "We zijn zeer tevreden over het resultaat van NextÉclat. De branding en de website weerspiegelen perfect onze activiteit en professionele uitstraling. Het team begreep onze behoeften en creëerde een moderne, duidelijke digitale aanwezigheid die aansluit bij onze klanten."
+      },
+      "id2": {
+        "city": "Nederland",
+        "project": "Branding + Platform",
+        "review": "We zijn zeer tevreden over het ontwerp en de ontwikkeling van ons Falcon Beats-platform. NextÉclat creëerde een professionele visuele identiteit en een gebruikerservaring afgestemd op de verkoop van onze beats. Sinds de lancering kunnen we onze creaties efficiënt presenteren en verkopen."
+      },
+      "id3": {
+        "city": "DR Congo",
+        "project": "Branding + Website",
+        "review": "We zijn zeer tevreden over de website ontworpen door NextÉclat. Het project belichtte onze expertise, diensten en QHSE-oplossingen voor onze klanten. Het team vertaalde onze visie perfect met een professioneel ontwerp en een duidelijke presentatie van onze activiteiten."
+      },
+      "id4": {
+        "city": "Verenigd Koninkrijk",
+        "project": "Videoclip",
+        "review": "We zijn zeer tevreden over het eindresultaat van de clip die door NextÉclat is gemaakt. De productiekwaliteit, het professionalisme van het team en het respecteren van de deadlines overtroffen onze verwachtingen ruimschoots. Elk detail werd zorgvuldig uitgevoerd om content te creëren die aansluit bij onze visie."
+      },
+      "id5": {
+        "city": "Nederland",
+        "project": "Videoclip",
+        "review": "We zijn zeer blij met de clip gemaakt door NextÉclat. Het bedachte concept werd perfect vertaald naar het scherm en het resultaat komt exact overeen met onze verwachtingen. Veel dank aan het team voor hun professionalisme, creativiteit en inzet gedurende het hele project."
+      },
+      "id6": {
+        "city": "Portugal",
+        "project": "Videoclip",
+        "review": "We zijn zeer tevreden over het eindresultaat van de clip gemaakt door NextÉclat. Gebruikmaken van onze aanwezigheid in Nederland tijdens de vakantie om dit project op korte termijn te realiseren was een uitstekende kans. Het team toonde groot professionalisme om het gewenste resultaat te behalen."
+      },
+      "id7": {
+        "city": "Nederland",
+        "project": "Videoclip",
+        "review": "We zijn zeer tevreden over de clip gemaakt door NextÉclat. De kwaliteit van het eindresultaat, de creativiteit en het professionalisme van het team gaven onze visie leven. Het project werd zorgvuldig uitgevoerd en elk detail werd nauwkeurig bewerkt."
+      }
+    }
+  },
+
+
   "Footer": {
     "CatTitle": "Ontvang nu uw persoonlijke offerte",
     "Services": "Dienst",
@@ -564,20 +616,29 @@
       "ContentLine6": "Dynamische websites met hoogwaardige afbeeldingen en video's, ontworpen om uw doelgroep te boeien en uw visuele impact te maximaliseren."
     }
   },
+
   "OurWebDesignProjects": {
     "title": "Onze projecten",
     "subtitle": "Webprojecten die ideeën tot leven brengen",
-    "contentTitle": "Ontdek 3 van onze recente projecten, elk zorgvuldig ontworpen om aan specifieke behoeften te voldoen. Meer projecten zijn momenteel in ontwikkeling. Of het nu gaat om een bedrijfswebsite, een site voor artiesten of influencers, een webshop of een op maat gemaakte digitale oplossing, wij creëren zonder grenzen.",
+    "contentTitle": "Ontdek 3 van onze recente projecten, elk zorgvuldig ontworpen om aan specifieke behoeften te voldoen. Andere projecten zijn momenteel in ontwikkeling. Of het nu gaat om een bedrijfswebsite, een website voor artiesten of influencers, een webshop of een digitale oplossing op maat, wij creëren zonder grenzen.",
     "btnRealisation": "Onze projecten",
     "project": {
       "title1": "NextÉclat",
-      "contentLine1": "NextEclat is een bedrijfswebsite van een digitaal bedrijf dat ondernemers, artiesten en influencers helpt om zichtbaarheid en geloofwaardigheid te vergroten. Het biedt complete oplossingen op het gebied van branding, webdesign, audiovisuele productie en digitale contentcreatie.",
+      "contentLine1": "NextÉclat is een digitaal bureau dat ondernemers, artiesten en influencers begeleidt bij het creëren van een sterk imago. We hebben deze website ontworpen om onze expertise in branding, webdesign, audiovisuele productie en digitale contentcreatie te tonen.",
 
       "title2": "FalconBeat",
-      "contentLine2": "Falcon Beats is een platform voor artiesten en muziekmakers die op zoek zijn naar professionele beats van hoge kwaliteit. Gebruikers kunnen verschillende instrumentals ontdekken, kopen en downloaden, geschikt voor diverse muziekstijlen en wereldwijd toegankelijk.",
+      "contentLine2": "Falcon Beats is een muziekplatform dat we hebben ontwikkeld voor artiesten en creators die op zoek zijn naar professionele beats van hoge kwaliteit. Gebruikers kunnen verschillende instrumentals ontdekken, kopen en downloaden, geschikt voor diverse muziekstijlen en wereldwijd toegankelijk.",
 
-      "title3": "Cyrus",
-      "contentLine3": "Cirus FP is een bedrijf gespecialiseerd in de productie en distributie van grote vlaggen en visuele dragers. Het biedt oplossingen die zijn afgestemd op grootschalige visuele communicatiebehoeften."
+      "title3": "Cyrus FP",
+      "contentLine3": "Cirus FP is een bedrijf gespecialiseerd in grootformaat visuele oplossingen. We hebben de website ontworpen om hun expertise in productie en distributie van vlaggen en grootschalige visuele communicatiemiddelen te benadrukken.",
+
+      "title4": "Pasha Bouw",
+      "contentLine4": "We hebben de bedrijfswebsite van Pasha Bouw ontworpen, een bedrijf gespecialiseerd in renovatie en maatwerkprojecten. De website benadrukt hun vakkennis in woningrenovaties, badkamers en keukens, evenals hun inzet voor kwaliteit en oplossingen op maat voor elke klant.",
+
+      "title5": "Jupiter Safe Consulting",
+      "contentLine5": "We hebben de bedrijfswebsite van Jupiter Safe Consulting ontworpen, een bedrijf gespecialiseerd in QHSE-consultancy. De website benadrukt hun expertise in regelgeving, risicopreventie en continue verbetering, met oplossingen aangepast aan de behoeften van bedrijven.",
+
+      "btn1": "Bekijk project"
     }
   },
 

@@ -25,6 +25,8 @@ import branding_image4 from "../Images/image_branding_digital4"
 import OurWorkflow from "../Layout/OurWorkflow";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
+import Experience from "../Layout/Experience";
+import Testimony from "../Layout/Testimony";
 
 function BrandIdentity() {
 
@@ -116,6 +118,8 @@ function BrandIdentity() {
                         </p>
                     </div>
                 </div>
+
+                <Experience/>
 
                 <TypeBranding/>
 
@@ -223,6 +227,8 @@ function BrandIdentity() {
                         </div>
                     </div>
                 </div>
+
+                <Testimony/>
 
                 <WhatsappFunction/>
                 <Footer/>

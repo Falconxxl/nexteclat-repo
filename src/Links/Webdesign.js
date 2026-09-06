@@ -11,6 +11,8 @@ import mobile_banner from "../Images/background_Brenda_blue_mobile7b.jpg";
 import compo_webdesign_laptop1 from "../Images/compo_laptop_nexteclat.png";
 import compo_webdesign_laptop2 from "../Images/compo_laptop_falcon.png";
 import compo_webdesign_laptop3 from "../Images/compo_laptop_cyrus.png";
+import compo_laptop_PashaBouw from "../Images/compo_laptop_PashaBouw.png";
+import compo_laptop_JupiterSafe from "../Images/compo_laptop_JupiterSafe.png";
 
 import { Link } from "react-scroll";
 import OurWorkflow from "../Layout/OurWorkflow";
@@ -23,10 +25,7 @@ import RequestAQuoteModal from "../Components/Modal/RequestAQuoteModal";
 import RequestAQuote from "../Components/RequestAQuote";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
-
-
-
-const projectImages = [compo_webdesign_laptop1, compo_webdesign_laptop2, compo_webdesign_laptop3];
+import Experience from "../Layout/Experience";
 
 function Webdesign() {
 
@@ -41,6 +40,45 @@ function Webdesign() {
 
         return () => clearTimeout(timer);
     }, []);
+
+    // Liste des projets affichés dans la grille.
+    // Les 3 premiers utilisent les clés de traduction existantes.
+    // Les 2 nouveaux (Pasha Bouw / Jupiter Safe Consulting) utilisent
+    // pour l'instant le même texte que NextEclat en attendant le contenu définitif.
+    const projects = [
+
+        {
+            image: compo_laptop_PashaBouw,
+            title: "Pasha Bouw",
+            desc: t("OurWebDesignProjects.project.contentLine4"),
+            link: "https://6a6b1bf01322941cd02b843f--pashabouw.netlify.app"
+        },
+        {
+            image: compo_laptop_JupiterSafe,
+            title: "Jupiter Safe Consulting",
+            desc: t("OurWebDesignProjects.project.contentLine5"),
+            link: "https://6a6811375ba1e1f4b99c0e41--jupiter-safe-consulting.netlify.app/"
+        },
+        {
+            image: compo_webdesign_laptop3,
+            title: t("OurWebDesignProjects.project.title3"),
+            desc: t("OurWebDesignProjects.project.contentLine3"),
+            // link: "#"
+        },
+
+        {
+            image: compo_webdesign_laptop1,
+            title: t("OurWebDesignProjects.project.title1"),
+            desc: t("OurWebDesignProjects.project.contentLine1"),
+            link: "https://nexteclat.com"
+        },
+        {
+            image: compo_webdesign_laptop2,
+            title: t("OurWebDesignProjects.project.title2"),
+            desc: t("OurWebDesignProjects.project.contentLine2"),
+            link: "https://www.falconbeat.nl"
+        },
+    ];
 
     return (
         <>
@@ -207,29 +245,39 @@ function Webdesign() {
 
                     {/* Grille des projets */}
                     <div className="Projects-grid">
-                        {[0, 1, 2].map((_, index) => (
+                        {projects.map((project, index) => (
                             <div className="Project-card" key={index}>
                                 <div className="Project-card-image">
                                     <img
-                                        src={projectImages[index]}
-                                        alt={t(`OurWebDesignProjects.project.title${index + 1}`)}
+                                        src={project.image}
+                                        alt={project.title}
                                         className="Project-img"
                                     />
                                 </div>
 
                                 <div className="Project-card-body">
                                     <h3 className="Project-card-title">
-                                        {t(`OurWebDesignProjects.project.title${index + 1}`)}
+                                        {project.title}
                                     </h3>
 
                                     <p className="Project-card-desc">
-                                        {t(`OurWebDesignProjects.project.contentLine${index + 1}`)}
+                                        {project.desc}
                                     </p>
+
+                                    <a href={project.link}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       className="cta-btn-webdesign Project-view-btn"
+                                    >
+                                        {t("OurWebDesignProjects.project.btn1")}
+                                    </a>
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
+
+                <Experience/>
 
                 {/*<PricingWebdesign/>*/}
                 <OurWorkflow/>

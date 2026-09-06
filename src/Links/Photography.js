@@ -27,6 +27,7 @@ import OurWorkflow from "../Layout/OurWorkflow";
 import PricingPhotography from "../Layout/PricingPhotography";
 import PhotographyGallery from "../Components/PhotographyGallery";
 import WhatsappFunction from "../Components/WhatsappFunction";
+import Experience from "../Layout/Experience";
 
 function Photography() {
 
@@ -115,6 +116,7 @@ function Photography() {
                 </div>
 
                 <PhotographyGallery/>
+                <Experience/>
                 <TypePhotos/>
 
                 {/*---------------- Direction Section ----------------*/}

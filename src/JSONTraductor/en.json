@@ -251,6 +251,13 @@
     }
   },
 
+  "Experience": {
+    "years": "Years of creative experience",
+    "experts": "Combined creative expertise",
+    "solutions": "Tailor-made solutions",
+    "projects": "Tools & technologies mastered"
+  },
+
   "WhyUs": {
     "Title": "Why choose NextEclat?",
     "Audiovisual": {
@@ -296,6 +303,48 @@
       "ContentLine2": "our experienced team works with high-quality gear to ensure the best possible output.",
       "ContentLine3": "We analyze trends and references to offer relevant and tailored music.",
       "ContentLine4": "We take client feedback into account at every stage to refine and perfect the final result."
+    }
+  },
+
+  "Testimony": {
+    "eyebrow": "Testimonials from our clients",
+    "subtitle": "Discover feedback from companies that chose Jupiter Safe to strengthen their QHSE performance and regulatory compliance.",
+    "items": {
+      "id1": {
+        "city": "Netherlands",
+        "project": "Branding + Website",
+        "review": "We are very satisfied with the result delivered by NextÉclat. The branding and website perfectly reflect our business and professional image. The team understood our needs and created a modern, clear digital presence suited to our clients."
+      },
+      "id2": {
+        "city": "Netherlands",
+        "project": "Branding + Platform",
+        "review": "We are very satisfied with the design and development of our Falcon Beats platform. NextÉclat created a professional visual identity and a user experience tailored to selling our beats. Since its launch, the platform lets us showcase and sell our creations efficiently."
+      },
+      "id3": {
+        "city": "DR Congo",
+        "project": "Branding + Website",
+        "review": "We are very satisfied with the website designed by NextÉclat. The project highlighted our expertise, services, and QHSE solutions for our clients. The team perfectly translated our vision with a professional design and a clear presentation of our activities."
+      },
+      "id4": {
+        "city": "United Kingdom",
+        "project": "Videoclip",
+        "review": "We are very satisfied with the final result of the video produced by NextÉclat. The production quality, the team's professionalism, and their respect of deadlines far exceeded our expectations. Every detail was carefully executed to create content that matched our vision."
+      },
+      "id5": {
+        "city": "Netherlands",
+        "project": "Videoclip",
+        "review": "We are very happy with the video produced by NextÉclat. The concept we imagined was perfectly translated on screen, and the result matches our expectations exactly. A big thank you to the team for their professionalism, creativity, and commitment throughout the project."
+      },
+      "id6": {
+        "city": "Portugal",
+        "project": "Videoclip",
+        "review": "We are very satisfied with the final result of the video produced by NextÉclat. Taking advantage of our stay in the Netherlands during the holidays to complete this project on a tight schedule was a great opportunity. The team showed great professionalism to achieve the desired result."
+      },
+      "id7": {
+        "city": "Netherlands",
+        "project": "Videoclip",
+        "review": "We are very satisfied with the video produced by NextÉclat. The quality of the final result, the creativity, and the team's professionalism brought our vision to life. The project was carried out with care and every detail was worked on thoroughly."
+      }
     }
   },
 
@@ -577,17 +626,25 @@
   "OurWebDesignProjects": {
     "title": "Our projects",
     "subtitle": "Web projects that bring ideas to life",
-    "contentTitle": "Discover 3 of our recent projects, each carefully designed to meet specific needs. More projects are currently in development. Whether it's a showcase website, a site for artists or influencers, an online store, or a custom digital solution, we create without limits.",
+    "contentTitle": "Discover 3 of our recent projects, each carefully designed to meet specific needs. More projects are currently under development. Whether it’s a showcase website, a website for artists or influencers, an online store, or a custom digital solution, we create without limits.",
     "btnRealisation": "Our projects",
     "project": {
       "title1": "NextÉclat",
-      "contentLine1": "NextEclat is a showcase website for a digital company that helps entrepreneurs, artists, and influencers gain visibility and credibility. It offers complete solutions in branding, web design, audiovisual production, and digital content creation.",
+      "contentLine1": "NextÉclat is a digital agency that supports entrepreneurs, artists, and influencers in building a strong brand image. We designed this website to showcase our expertise in branding, web design, audiovisual production, and digital content creation.",
 
       "title2": "FalconBeat",
-      "contentLine2": "Falcon Beats is a platform dedicated to artists and music creators looking for high-quality professional beats. Users can explore, purchase, and download a variety of instrumentals adapted to different musical styles, accessible worldwide.",
+      "contentLine2": "Falcon Beats is a music platform we created for artists and creators looking for high-quality professional beats. It allows users to explore, purchase, and download various instrumentals adapted to different music styles, accessible worldwide.",
 
-      "title3": "Cyrus",
-      "contentLine3": "Cirus FP is a company specialized in the production and distribution of large-scale flags and visual media. It provides solutions tailored to large-scale visual communication needs."
+      "title3": "Cyrus FP",
+      "contentLine3": "Cirus FP is a company specialized in large-format visual solutions. We designed its website to showcase its expertise in the production and distribution of flags and large-scale visual communication solutions.",
+
+      "title4": "Pasha Bouw",
+      "contentLine4": "We designed the showcase website for Pasha Bouw, a company specialized in renovation and custom projects. The website highlights its expertise in home renovations, bathrooms, and kitchens, as well as its commitment to quality and tailored solutions for each client.",
+
+      "title5": "Jupiter Safe Consulting",
+      "contentLine5": "We designed the showcase website for Jupiter Safe Consulting, a company specialized in QHSE consulting. The website highlights its expertise in compliance, risk prevention, and continuous improvement, with solutions adapted to businesses’ needs.",
+
+      "btn1": "View project"
     }
   },
 

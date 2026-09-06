@@ -246,6 +246,14 @@
       "ContentLine3": "Entrega dos ficheiros finais e suporte pós-entrega."
     }
   },
+
+  "Experience": {
+    "years": "Anos de experiência criativa",
+    "experts": "Expertises criativas reunidas",
+    "solutions": "Soluções sob medida",
+    "projects": "Ferramentas & tecnologias dominadas"
+  },
+
   "WhyUs": {
     "Title": "Por que escolher a NextEclat?",
     "Audiovisual": {
@@ -293,6 +301,49 @@
       "ContentLine4": "O feedback do cliente é integrado em cada etapa para aperfeiçoar o resultado final."
     }
   },
+
+  "Testimony": {
+    "eyebrow": "Depoimentos dos nossos clientes",
+    "subtitle": "Descubra os relatos de empresas que escolheram a Jupiter Safe para fortalecer o seu desempenho QHSE e a conformidade regulatória.",
+    "items": {
+      "id1": {
+        "city": "Países Baixos",
+        "project": "Branding + Website",
+        "review": "Estamos muito satisfeitos com o resultado alcançado pela NextÉclat. O branding e o website refletem perfeitamente a nossa atividade e imagem profissional. A equipa soube compreender as nossas necessidades e criar uma presença digital moderna, clara e adaptada aos nossos clientes."
+      },
+      "id2": {
+        "city": "Países Baixos",
+        "project": "Branding + Plataforma",
+        "review": "Estamos muito satisfeitos com o design e o desenvolvimento da nossa plataforma Falcon Beats. A NextÉclat criou uma identidade visual profissional e uma experiência de utilizador adaptada à venda dos nossos beats. Desde o seu lançamento, a plataforma permite-nos apresentar e vender as nossas criações de forma eficaz."
+      },
+      "id3": {
+        "city": "RD Congo",
+        "project": "Branding + Website",
+        "review": "Estamos muito satisfeitos com o website concebido pela NextÉclat. O projeto permitiu valorizar a nossa experiência, os nossos serviços e as nossas soluções QHSE junto dos clientes. A equipa traduziu perfeitamente a nossa visão com um design profissional e uma apresentação clara das nossas atividades."
+      },
+      "id4": {
+        "city": "Reino Unido",
+        "project": "Videoclip",
+        "review": "Estamos muito satisfeitos com o resultado final do clip realizado pela NextÉclat. A qualidade de produção, o profissionalismo da equipa e o cumprimento dos prazos superaram largamente as nossas expectativas. Cada detalhe foi cuidadosamente executado para criar um conteúdo à altura da nossa visão."
+      },
+      "id5": {
+        "city": "Países Baixos",
+        "project": "Videoclip",
+        "review": "Estamos muito satisfeitos com o clip realizado pela NextÉclat. O conceito imaginado foi perfeitamente transposto para o ecrã e o resultado corresponde exatamente às nossas expectativas. Um grande obrigado à equipa pelo seu profissionalismo, criatividade e empenho ao longo de todo o projeto."
+      },
+      "id6": {
+        "city": "Portugal",
+        "project": "Videoclip",
+        "review": "Estamos muito satisfeitos com o resultado final do clip realizado pela NextÉclat. Aproveitar a nossa estadia nos Países Baixos durante as férias para realizar este projeto num prazo curto foi uma excelente oportunidade. A equipa demonstrou um grande profissionalismo para alcançar o resultado pretendido."
+      },
+      "id7": {
+        "city": "Países Baixos",
+        "project": "Videoclip",
+        "review": "Estamos muito satisfeitos com o clip realizado pela NextÉclat. A qualidade do resultado final, a criatividade e o profissionalismo da equipa deram vida à nossa visão. O projeto foi realizado com rigor e cada detalhe foi trabalhado com cuidado."
+      }
+    }
+  },
+
   "Footer": {
     "CatTitle": "Obtenha agora o seu orçamento personalizado",
     "Services": "Serviços",
@@ -569,17 +620,25 @@
   "OurWebDesignProjects": {
     "title": "Nossos projetos",
     "subtitle": "Projetos web que dão vida às ideias",
-    "contentTitle": "Descubra 3 dos nossos projetos recentes, cada um cuidadosamente desenvolvido para atender a necessidades específicas. Outros projetos estão atualmente em desenvolvimento. Seja um site institucional, um site para artistas ou influenciadores, uma loja online ou uma solução digital personalizada, criamos sem limites.",
+    "contentTitle": "Descubra 3 dos nossos projetos recentes, cada um cuidadosamente desenvolvido para responder a necessidades específicas. Outros projetos estão atualmente em desenvolvimento. Seja um site institucional, um site para artistas ou influenciadores, uma loja online ou uma solução digital personalizada, criamos sem limites.",
     "btnRealisation": "Nossos projetos",
     "project": {
       "title1": "NextÉclat",
-      "contentLine1": "NextEclat é um site institucional de uma empresa digital que ajuda empreendedores, artistas e influenciadores a ganhar visibilidade e credibilidade. Oferece soluções completas em branding, web design, produção audiovisual e criação de conteúdo digital.",
+      "contentLine1": "A NextÉclat é uma agência digital que acompanha empreendedores, artistas e influenciadores na criação de uma imagem forte. Desenvolvemos este site para destacar a nossa experiência em branding, web design, produção audiovisual e criação de conteúdo digital.",
 
       "title2": "FalconBeat",
-      "contentLine2": "Falcon Beats é uma plataforma dedicada a artistas e criadores musicais que procuram beats profissionais de alta qualidade. Os usuários podem explorar, comprar e baixar instrumentais variados, adaptados a diferentes estilos musicais, acessíveis em todo o mundo.",
+      "contentLine2": "A Falcon Beats é uma plataforma musical que criámos para artistas e criadores à procura de beats profissionais de alta qualidade. Permite explorar, comprar e descarregar instrumentais variados adaptados a diferentes estilos musicais, acessíveis em todo o mundo.",
 
-      "title3": "Cyrus",
-      "contentLine3": "Cirus FP é uma empresa especializada na produção e distribuição de grandes bandeiras e suportes visuais de grande dimensão. Oferece soluções adaptadas às necessidades de comunicação visual em larga escala."
+      "title3": "Cyrus FP",
+      "contentLine3": "A Cirus FP é uma empresa especializada em soluções visuais de grande formato. Criámos o seu site para destacar a sua experiência na produção e distribuição de bandeiras e soluções de comunicação visual em grande escala.",
+
+      "title4": "Pasha Bouw",
+      "contentLine4": "Criámos o site institucional da Pasha Bouw, uma empresa especializada em renovação e projetos personalizados. O site destaca a sua experiência em renovação de casas, casas de banho e cozinhas, bem como o seu compromisso com a qualidade e soluções adaptadas a cada cliente.",
+
+      "title5": "Jupiter Safe Consulting",
+      "contentLine5": "Criámos o site institucional da Jupiter Safe Consulting, uma empresa especializada em consultoria QHSE. O site destaca a sua experiência em conformidade, prevenção de riscos e melhoria contínua, com soluções adaptadas às necessidades das empresas.",
+
+      "btn1": "Ver projeto"
     }
   },
 

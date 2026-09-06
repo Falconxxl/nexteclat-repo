@@ -25,6 +25,7 @@ import React, { useState, useEffect } from "react";
 import PageLoader from "../Components/PageLoader";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
+import Experience from "../Layout/Experience";
 
 
 function AudioVisual() {
@@ -117,6 +118,7 @@ function AudioVisual() {
 
                 <TypeVideos/>
                 <ArchiveVideoReel/>
+                <Experience/>
                 <PricingVideo/>
 
                 {/*---------------Section-Drone-Video----------------*/}

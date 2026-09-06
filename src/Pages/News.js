@@ -27,6 +27,8 @@ import RequestAQuote from "../Components/RequestAQuote";
 // import sozacom from "../Images/sozacom4.png";
 import PageLoader from "../Components/PageLoader";
 import NewsPartnership from "../Layout/Newspartnership";
+import Experience from "../Layout/Experience";
+import Testimony from "../Layout/Testimony";
 
 function News() {
 
@@ -153,6 +155,8 @@ function News() {
                     </div>
                 </header>
 
+                <Experience/>
+
                 {/*----------------FalconXXL (Bientot à Kinshasa)-----------------*/}
 
                 {/*<section className="kinshasa-wrapper">*/}
@@ -177,6 +181,8 @@ function News() {
 
                 {/*    </div>*/}
                 {/*</section>*/}
+
+                <Testimony/>
 
                 <WhatsappFunction/>
                 <Footer/>

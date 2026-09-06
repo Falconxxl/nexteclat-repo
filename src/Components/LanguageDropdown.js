@@ -36,7 +36,8 @@ function LanguageDropdown({ i18n }) {
 
         <>
 
-    <div className="dropdown-container" ref={dropdownRef}>
+    <div className="dropdown-container" ref={dropdownRef}
+    style={{zIndex:"3000"}}>
             <div className="dropdown-selected" onClick={() => setOpen(!open)}>
                 {options.find((o) => o.value === selected)?.label}
             </div>

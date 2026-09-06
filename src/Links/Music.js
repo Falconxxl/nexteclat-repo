@@ -22,6 +22,7 @@ import RequestAQuoteModal from "../Components/Modal/RequestAQuoteModal";
 import RequestAQuote from "../Components/RequestAQuote";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import Ads from "../Layout/Ads";
+import Experience from "../Layout/Experience";
 
 function Music() {
 
@@ -101,6 +102,8 @@ function Music() {
                         <i className="fa-solid fa-angles-down"></i>
                     </Link>
                 </header>
+
+                <Experience/>
 
                 {/* DESCRIPTION */}
 

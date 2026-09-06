@@ -81,17 +81,9 @@ body {
     border-radius: 60px;
     background-color: #7856f4;
     border: 2px solid #7856f4;
-
-    /*border: 2px solid transparent;*/
-
-    /*background:*/
-    /*        linear-gradient(white, white) padding-box,*/
-    /*        linear-gradient(90deg, #6bc0f5, #7357eb, #908ef4) border-box;*/
-
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -315,6 +307,16 @@ body {
     line-height: 1.75;
     color: black;
     font-weight: 350;
+}
+
+/*-------------------------------------------*/
+/*        PROJECT VIEW BUTTON                */
+/*-------------------------------------------*/
+
+.Project-view-btn {
+    align-self: flex-start;
+    margin-top: 8px;
+    display: inline-block;
 }
 
 /*-------------------------------------------*/

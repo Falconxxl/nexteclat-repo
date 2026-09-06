@@ -19,6 +19,7 @@ import OurWorkflow from "../Layout/OurWorkflow";
 import PricingDigitalMarketing from "../Layout/PricingDigitalMarketing";
 import NavbarMenuMobile from "../Layout/NavbarMenuMobile";
 import WhatsappFunction from "../Components/WhatsappFunction";
+import Experience from "../Layout/Experience";
 
 function DigitalMarketing() {
 
@@ -83,6 +84,8 @@ function DigitalMarketing() {
                         <i className="fa-solid fa-angles-down"></i>
                     </Link>
                 </div>
+
+                <Experience/>
 
                 {/* DESCRIPTION */}
                 <div className="AudioVisual-Description">
@@ -160,6 +163,8 @@ function DigitalMarketing() {
 
                     </div>
                 </div>
+
+
 
                 <PricingDigitalMarketing/>
                 <OurWorkflow/>

@@ -22,6 +22,8 @@ import WhyUs from "../Layout/WhyUs";
 import CertificationMichael from "../Layout/CertificationMichael";
 import OurTeamAbout from "../Layout/OurTeamAbout";
 import WhatsappFunction from "../Components/WhatsappFunction";
+import Experience from "../Layout/Experience";
+import Testimony from "../Layout/Testimony";
 
 function About() {
     const [openQuote, setOpenQuote] = useState(false);
@@ -256,6 +258,8 @@ function About() {
                     <OurTeamAbout/>
                     <OurWorkflow/>
                     <WhyUs/>
+                    <Experience/>
+                    <Testimony/>
                     <WhatsappFunction/>
                     <Footer/>
 
