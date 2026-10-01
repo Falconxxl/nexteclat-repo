@@ -22,6 +22,7 @@ import Projects from "./Pages/Projects";
 import RequestAQuote from "./Components/RequestAQuote";
 import ScrollToTop from "./Components/ScrollToTop";
 import Collaboration from "./Pages/Collaboration/Collaboration";
+import CookieBanner from "./Components/CookieBanner";
 
 
 function App() {
@@ -53,6 +54,8 @@ function App() {
           <Route path='/Trainings' element={<Trainings/>}></Route>
           <Route path='/RequestAQuote' element={<RequestAQuote/>}></Route>
       </Routes>
+
+          <CookieBanner />
 
       </>
 

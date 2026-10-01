@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import Wedding_home from "../Images/Slopez2.jpg";
 import Wedding_home2 from "../Images/photography_brenda1a.jpg";
 import laptops_home from "../Images/laptops_home8g.jpg";
-import Branding_home from "../Images/Branding_home8a.png";
+import Branding_home from "../Images/Branding_home8b.png";
 import Social_media from "../Images/Media_social2.jpg";
-import logic_guitare_home from "../Images/logic_guitare_home7a.jpg";
+import logic_guitare_home from "../Images/logic_guitare_home7c.png";
 import icon_film from "../Images/icon_film3c.png";
 import icon_webdesign from "../Images/icon_webdesign2c.png";
 import icon_brand from "../Images/icon_brand2c.png";
@@ -78,8 +78,7 @@ function ServiceHome() {
                     </div>
 
                     <NavLink to='/Webdesign'
-                             // className="media-Container-ServiceHome-single-y"
-                             className="media-Container-ServiceHome-single-y"
+                             className="media-Container-ServiceHome-single"
                     >
                         <img src={laptops_home} alt="" className="image-mike_brenda-home" />
 
@@ -105,11 +104,9 @@ function ServiceHome() {
                         </NavLink>
                     </div>
 
-                    <div className="media-Container-ServiceHome-single-x">
-                        <button onClick={() => setOpenModal(true)} className="media-Container-ServiceHome-single">
-                            <img src={Wedding_home} alt="" className="image-mike_brenda-home" />
-                        </button>
-                    </div>
+                    <button onClick={() => setOpenModal(true)} className="media-Container-ServiceHome-single">
+                        <img src={Wedding_home} alt="" className="image-mike_brenda-home" />
+                    </button>
                 </div>
 
                 {/*----------------Photography--------------------------*/}
@@ -131,13 +128,11 @@ function ServiceHome() {
                         </NavLink>
                     </div>
 
-                    <div className="media-Container-ServiceHome-single-x">
-                        <NavLink to="/Photography"
-                                 className="media-Container-ServiceHome-single"
-                        >
-                            <img src={Wedding_home2} alt="" className="image-mike_brenda-home-x" />
-                        </NavLink>
-                    </div>
+                    <NavLink to="/Photography"
+                             className="media-Container-ServiceHome-single"
+                    >
+                        <img src={Wedding_home2} alt="" className="image-mike_brenda-home-x" />
+                    </NavLink>
                 </div>
 
                 {/*----------------Digital Marketing--------------------------*/}
@@ -159,13 +154,11 @@ function ServiceHome() {
                         </NavLink>
                     </div>
 
-                    <div className="media-Container-ServiceHome-single-x">
-                        <NavLink to="/DigitalMarketing"
-                                 className="media-Container-ServiceHome-single"
-                        >
-                            <img src={Social_media} alt="" className="image-mike_brenda-home-x" />
-                        </NavLink>
-                    </div>
+                    <NavLink to="/DigitalMarketing"
+                             className="media-Container-ServiceHome-single"
+                    >
+                        <img src={Social_media} alt="" className="image-mike_brenda-home-x" />
+                    </NavLink>
                 </div>
 
                 {/*---------------Music---------------------------*/}
@@ -177,15 +170,15 @@ function ServiceHome() {
                             {t("ServiceHomeExplore.MusicProduction.Title")}
                         </h3>
 
-                        <h2>{t("ServiceHomeExplore.MusicProduction.SubtitleLine1")}</h2>
-
                         <p>
                             {t("ServiceHomeExplore.MusicProduction.ContentLine1")}{" "}
                             <a
                                 href="https://www.falconbeat.nl"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ color: "#f3bb2f", fontWeight: "800", textDecoration: "none" }}
+                                style={{
+                                    color: "#f3bb2f",
+                                    fontWeight: "800", textDecoration: "none" }}
                             >
                                 FalconBeat
                             </a>{" "}

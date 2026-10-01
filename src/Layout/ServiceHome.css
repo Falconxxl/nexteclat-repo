@@ -49,6 +49,7 @@
     height: auto;
     flex: 1 1 400px;
     min-width: 280px;
+    margin: 0;
 }
 
 .text-Container-ServiceHome-single h3 {
@@ -123,6 +124,16 @@
     overflow: hidden;
     flex: 1 1 400px;
     min-width: 280px;
+    /* Reset so this class works identically whether it lands on a
+       NavLink (anchor) or a native <button> (Audiovisual card modal trigger) —
+       browsers apply different default margins to <button> than to <a>,
+       so this class must always own margin explicitly rather than
+       inherit it, or the text↔media gap drifts on that one card. */
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    cursor: pointer;
 }
 
 .media-Container-ServiceHome-single-x {
@@ -189,7 +200,7 @@
     border-radius: 0;
 }
 
-/*-------------------Tablette (max 1250px) — NOUVEAU--------------------*/
+/*-------------------Tablette (max 1250px)--------------------*/
 
 @media (max-width: 1250px) {
     .Container-ServiceHome-single {
@@ -224,7 +235,7 @@
     }
 }
 
-/*-------------------Tablette (max 1024px) — NOUVEAU--------------------*/
+/*-------------------Tablette (max 1024px)--------------------*/
 
 @media (max-width: 1024px) {
     .Container-ServiceHome {
@@ -292,6 +303,7 @@
         padding-left: 20px;
         padding-right: 20px;
         overflow: hidden;
+        /*background-color: red;*/
     }
 
     .title-ServiceHome {
@@ -316,13 +328,21 @@
         border-radius: 30px;
         box-sizing: border-box;
         overflow: hidden;
-        gap: 15px;
+        gap: 40px;
         flex-direction: column;
     }
 
     .text-Container-ServiceHome-single {
         width: 100%;
         box-sizing: border-box;
+        height: auto;
+        /*background-color: red;*/
+    }
+
+    .text-Container-ServiceHome-single {
+        width: 100%;
+        box-sizing: border-box;
+        flex: 0 0 auto;   /* neutralise le flex-basis de 400px hérité, revient à la taille du contenu */
     }
 
     .text-Container-ServiceHome-single h3 {
@@ -348,10 +368,18 @@
         margin-right: 10px;
     }
 
+    /* Fixed media "frame": every card now gets the exact same height and
+       the image is force-filled edge-to-edge with object-fit: cover, so
+       no card can end up with visible gaps around the image regardless
+       of that image's own intrinsic aspect ratio. The gradient border +
+       radius stay on this container only — never on the image itself. */
     .media-Container-ServiceHome-single,
     .media-Container-ServiceHome-single-x {
+        position: relative;
         width: 100%;
         max-width: 100%;
+        aspect-ratio: 4 / 3;
+        height: auto;
         box-sizing: border-box;
         overflow: hidden;
         border-radius: 25px;
@@ -362,14 +390,13 @@
         margin-bottom: 10px;
     }
 
-    .media-Container-ServiceHome-single-x {
-        padding: 0px;
-    }
-
     .image-mike_brenda-home,
     .image-mike_brenda-home-x {
+        position: absolute;
+        inset: 0;
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         display: block;
     }
 
@@ -383,38 +410,23 @@
     .text-Container-ServiceHome-single p {
         margin-bottom: 40px;
     }
-
-    .media-Container-ServiceHome-single-x {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        border: 2px solid transparent;
-        background:transparent;
-        border-radius: 40px;
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-        align-items: center;
-        box-shadow: none !important;
-        overflow: hidden;
-        flex: 1 1 350px;
-        min-width: 280px;
-    }
 }
 
-/*-------------------Petit mobile (max 480px) — NOUVEAU--------------------*/
+/*-------------------Petit mobile (max 480px)--------------------*/
 
 @media (max-width: 480px) {
     .Container-ServiceHome {
         padding-left: 12px;
         padding-right: 12px;
         gap: 28px;
+        /*background-color: red;*/
     }
 
     .Container-ServiceHome-single {
         padding: 20px;
         border-radius: 24px;
-        gap: 0px;
+        gap: 40px;
+        border: none;
     }
 
     .title-ServiceHome-mobile {

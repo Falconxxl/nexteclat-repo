@@ -270,7 +270,7 @@
 }
 
 .Drone-quote-button:hover {
-    background-color: #f3bb2f;
+    /*background-color: #f3bb2f;*/
     transform: scale(1.05);
     color: white;
 }
