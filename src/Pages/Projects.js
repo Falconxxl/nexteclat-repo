@@ -39,6 +39,7 @@ import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 import Experience from "../Layout/Experience";
 import Testimony from "../Layout/Testimony";
+import compo_webdesign_portfolio_ilunga from "../Images/Pic_portfolio_mike.jpg";
 
 
 function Projects() {
@@ -87,6 +88,13 @@ function Projects() {
             title: t("OurWebDesignProjects.project.title2"),
             desc: t("OurWebDesignProjects.project.contentLine2"),
             link: "https://www.falconbeat.nl"
+        },
+
+        {
+            image: compo_webdesign_portfolio_ilunga,
+            title: t("OurWebDesignProjects.project.title6"),
+            desc: t("OurWebDesignProjects.project.contentLine6"),
+            link: "https://ilunga.netlify.app"
         },
     ];
 
