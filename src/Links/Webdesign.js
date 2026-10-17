@@ -13,6 +13,7 @@ import compo_webdesign_laptop2 from "../Images/compo_laptop_falcon.png";
 import compo_webdesign_laptop3 from "../Images/compo_laptop_cyrus.png";
 import compo_laptop_PashaBouw from "../Images/compo_laptop_PashaBouw.png";
 import compo_laptop_JupiterSafe from "../Images/compo_laptop_JupiterSafe.png";
+import compo_webdesign_portfolio_ilunga from "../Images/Pic_portfolio_mike.jpg";
 
 import { Link } from "react-scroll";
 import OurWorkflow from "../Layout/OurWorkflow";
@@ -51,13 +52,13 @@ function Webdesign() {
             image: compo_laptop_PashaBouw,
             title: "Pasha Bouw",
             desc: t("OurWebDesignProjects.project.contentLine4"),
-            link: "https://6a6b1bf01322941cd02b843f--pashabouw.netlify.app"
+            link: "https://pashabouw.netlify.app"
         },
         {
             image: compo_laptop_JupiterSafe,
             title: "Jupiter Safe Consulting",
             desc: t("OurWebDesignProjects.project.contentLine5"),
-            link: "https://6a6811375ba1e1f4b99c0e41--jupiter-safe-consulting.netlify.app/"
+            link: "https://jupitersafeconsulting.netlify.app"
         },
         {
             image: compo_webdesign_laptop3,
@@ -77,6 +78,12 @@ function Webdesign() {
             title: t("OurWebDesignProjects.project.title2"),
             desc: t("OurWebDesignProjects.project.contentLine2"),
             link: "https://www.falconbeat.nl"
+        },
+        {
+            image: compo_webdesign_portfolio_ilunga,
+            title: t("OurWebDesignProjects.project.title6"),
+            desc: t("OurWebDesignProjects.project.contentLine6"),
+            link: "https://ilunga.netlify.app"
         },
     ];
 
