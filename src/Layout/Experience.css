@@ -56,7 +56,7 @@
 }
 
 /* Tablette */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .experience-container {
         justify-content: center;
     }

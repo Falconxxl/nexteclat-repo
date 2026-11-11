@@ -172,7 +172,7 @@
     align-items: center;
     padding: 40px;
     border-radius: 30px;
-    border-left: 1px solid #f3bb2f ;
+    /*border-left: 1px solid #f3bb2f ;*/
 }
 
 .AudioVisual-Description-Right p{
@@ -335,7 +335,6 @@
     background:
             linear-gradient(#1c1c1c, #1c1c1c) padding-box,
             linear-gradient(90deg, #6bc0f5, #908ef4, #7357eb) border-box;
-
 }
 
 .audiovisual-direction-text {
@@ -466,8 +465,6 @@
 
 /*-------------------------------------*/
 
-
-
 /*-------------------------------------*/
 
 @keyframes bounce {
@@ -475,12 +472,18 @@
     50% { transform: translate(-50%, -10px); }
 }
 
+
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
+    .section-drone-video {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 908px) {
 
     .AudioVisual-banner {
         margin-bottom: -99px;
@@ -500,7 +503,6 @@
         transform: translateY(-50%);
     }
 
-
     .AudioVisual-content h1 { font-size: 3rem; }
     .AudioVisual-content p { font-size: 1.1rem; }
     .cta-btn-AudioVisual {
@@ -515,21 +517,6 @@
     .cta-btn-AudioVisual {
         padding: 14px 25px;
     }
-
-    /*.audiovisual-direction-badge {*/
-    /*    background: linear-gradient(135deg, #d6ccfb, #7856f4);*/
-    /*    color: white;*/
-    /*    font-weight: 700;*/
-    /*    font-size: 16px;*/
-    /*    padding: 10px 4px;*/
-    /*    border-radius: 9999px; !* forme pill *!*/
-    /*    display: inline-block;*/
-    /*    margin-bottom: 20px;*/
-    /*    letter-spacing: 2px;*/
-    /*    text-align: center;*/
-    /*}*/
-
-
 
     /*------Description--------*/
 
@@ -597,11 +584,6 @@
         flex-direction: column;
     }
 
-    /*.Drone-quote-button {*/
-    /*    margin-left: 130px;*/
-    /*    margin-bottom: 40px;*/
-    /*}*/
-
     .Drone-quote-button {
         margin-left: auto;
         margin-right: auto;
@@ -636,37 +618,39 @@
 
 {/*---------------Where Creativity Meets Direction----------------*/}
 
-    .audiovisual-direction-Mike {
-        width: 100%;
-        /*background-color: #111;*/
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 60px 0px;
-    }
+    /*.audiovisual-direction-Mike {*/
+    /*    !*width: 100%;*!*/
+    /*    !*!*background-color: #111;*!*!*/
+    /*    background-color: red;*/
+    /*    !*display: flex;*!*/
+    /*    !*!*justify-content: center;*!*!*/
+    /*    !*align-items: center;*!*/
+    /*    !*padding: 60px 0px;*!*/
+    /*    !*flex-direction: column;*!*/
+    /*}*/
 
-    .direction-Mike-inner {
-        width: 90%;
-        /*max-width: 1200px;*/
-        gap: 10px;
-        padding: 0px;
-        /*flex-wrap: wrap;*/
-    }
+    /*.direction-Mike-inner {*/
+    /*    width: 90%;*/
+    /*    !*max-width: 1200px;*!*/
+    /*    gap: 10px;*/
+    /*    padding: 0px;*/
+    /*    !*flex-wrap: wrap;*!*/
+    /*}*/
 
-    .audiovisual-direction-image img {
-        width: 380px;
-        height: auto;
-        border-radius: 20px;
-        object-fit: cover;
-    }
+    /*.audiovisual-direction-image img {*/
+    /*    width: 380px;*/
+    /*    height: auto;*/
+    /*    border-radius: 20px;*/
+    /*    object-fit: cover;*/
+    /*}*/
 
-    .audiovisual-direction-text {
-        flex: 1;
-        /*color: #fff;*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    /*.audiovisual-direction-text {*/
+    /*    flex: 1;*/
+    /*    !*color: #fff;*!*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*}*/
 
     /*.audiovisual-direction-badge {*/
     /*    !*background: linear-gradient(135deg, #f3bb2f, #c78d43);*!*/
@@ -703,7 +687,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
     .AudioVisual-content h1 { font-size: 3rem; }
     .AudioVisual-content p { font-size: 1.1rem; }
     .cta-btn-AudioVisual {
@@ -839,5 +823,7 @@
     /*    letter-spacing: 2px;*/
     /*    text-align: center;*/
     /*}*/
+
+
 
 }

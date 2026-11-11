@@ -7,10 +7,10 @@ import laptops_home from "../Images/laptops_home8g.jpg";
 import Branding_home from "../Images/Branding_home8b.png";
 import Social_media from "../Images/Media_social2.jpg";
 import logic_guitare_home from "../Images/logic_guitare_home7c.png";
-import icon_film from "../Images/icon_film3c.png";
-import icon_webdesign from "../Images/icon_webdesign2c.png";
-import icon_brand from "../Images/icon_brand2c.png";
-import icon_music from "../Images/icon_music2c.png";
+import icon_film from "../Images/icon_film3d.png";
+import icon_webdesign from "../Images/icon_webdesign2d.png";
+import icon_brand from "../Images/icon_brand2d.png";
+import icon_music from "../Images/icon_music2d.png";
 
 import { NavLink } from "react-router-dom";
 import Modal1 from "../Components/Modal/Modal1";
@@ -177,7 +177,7 @@ function ServiceHome() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{
-                                    color: "#f3bb2f",
+                                    color: "#7856f4",
                                     fontWeight: "800", textDecoration: "none" }}
                             >
                                 FalconBeat

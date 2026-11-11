@@ -34,7 +34,8 @@
 .Container-ServiceHome-single {
     width: 80%;
     height: auto;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #e7e7ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,7 @@
     font-weight: 700;
     font-family: 'Orbitron', sans-serif !important;
     margin-bottom: 10px;
-    background: white;
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
@@ -66,15 +67,17 @@
 
 .text-Container-ServiceHome-single h2 {
     font-size: clamp(27px, 4vw, 20px);
-    font-weight: 600;
-    color: white;
+    font-weight: 500;
+    /*color: black;*/
     margin-bottom: 15px;
+    color:#5d34f1;
 }
 
 .text-Container-ServiceHome-single p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.6;
-    color: white;
+    color: black;
+    font-weight: 400;
     margin-bottom: 40px;
     font-family: "Poppins", sans-serif;
 }
@@ -99,8 +102,8 @@
 }
 
 .btn-text-Container-ServiceHome-single:hover {
-    transform: scale(1.1);
-    border: 2px solid transparent;
+    /*transform: scale(1.1);*/
+    /*border: 2px solid transparent;*/
     background:
             linear-gradient(black, black) padding-box,
             linear-gradient(90deg, #6bc0f5, #7357eb, #908ef4) border-box;
@@ -116,9 +119,9 @@
     display: flex;
     justify-content: center;
     border: 2px solid transparent;
-    background:
-            linear-gradient(black, black) padding-box,
-            linear-gradient(90deg, #6bc0f5, #7357eb, #908ef4) border-box;
+    /*background:*/
+    /*        linear-gradient(black, black) padding-box,*/
+    /*        linear-gradient(90deg, #6bc0f5, #7357eb, #908ef4) border-box;*/
     padding: 0px;
     align-items: center;
     overflow: hidden;
@@ -210,6 +213,8 @@
         justify-content: center;
     }
 
+
+
     .text-Container-ServiceHome-single {
         width: 100%;
     }
@@ -227,6 +232,7 @@
     .Container-ServiceHome {
         padding-left: 10px;
         padding-right: 10px;
+        /*background-color: red;*/
     }
 
     .Container-ServiceHome-single {
@@ -255,6 +261,7 @@
         gap: 30px;
     }
 
+
     .text-Container-ServiceHome-single {
         width: 100%;
     }
@@ -278,6 +285,7 @@
     .btn-text-Container-ServiceHome-single {
         display: inline-block;
         text-align: center;
+        border: none;
     }
 }
 
@@ -310,8 +318,10 @@
         display: none;
     }
 
+
+
     .title-ServiceHome-mobile {
-        font-size: clamp(40px, 8vw, 65px);
+        font-size: clamp(40px, 8vw, 44px);
         font-weight: 800;
         color: black;
         padding-bottom: 0px;
@@ -401,16 +411,42 @@
     }
 
     .btn-text-Container-ServiceHome-single {
-        width: 100%;
+        width: 40%;
         text-align: center;
         box-sizing: border-box;
         display: block;
+        /*display: flex;*/
+        /*background-color: red;*/
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 30px;
+
     }
 
     .text-Container-ServiceHome-single p {
         margin-bottom: 40px;
     }
 }
+
+/*-------------------Mobile (max 945px)--------------------*/
+
+@media (max-width: 756px) {
+
+    .btn-text-Container-ServiceHome-single {
+        width: 70%;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        /*display: flex;*/
+        /*background-color: red;*/
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 30px;
+
+    }
+
+
+    }
 
 /*-------------------Petit mobile (max 480px)--------------------*/
 
@@ -447,9 +483,11 @@
     }
 
     .btn-text-Container-ServiceHome-single {
-        padding: 12px 28px;
+        padding: 12px 30px;
         font-size: 17px;
+        width: 90%;
     }
+
 
     .icon_home_services {
         width: 12%;

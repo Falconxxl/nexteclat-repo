@@ -120,7 +120,7 @@ body {
 
 /*-------------------------------------------*/
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1250px) {
 
 
     .dropdown-container {
@@ -130,17 +130,6 @@ body {
 
 
     .Container-TestTwo {
-        /*width: 100%;*/
-        /*height: 80vh;*/
-        /*!*background-color: yellow;*!*/
-        /*box-sizing: border-box;*/
-        /*!*background-image: url("../Assets/banner_mobile3.jpg");*!*/
-        /*background-repeat: no-repeat;*/
-        /*background-size: cover;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*padding-top: 150px;*/
-        /*!*justify-content: center;*!*/
     }
 
     .navbar-hamburger {
