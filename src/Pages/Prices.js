@@ -21,6 +21,7 @@ import PricingMusic from "../Layout/PricingMusic";
 import { useTranslation } from "react-i18next";
 import Experience from "../Layout/Experience";
 import Testimony from "../Layout/Testimony";
+import VideoIntro from "../Layout/VideoIntro";
 
 
 function Prices() {
@@ -111,6 +112,7 @@ function Prices() {
             </div>
         <Experience/>
         <Testimony/>
+        <VideoIntro/>
             <WhatsappFunction/>
             <Footer />
         </div>

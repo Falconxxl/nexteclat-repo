@@ -28,6 +28,7 @@ import PricingPhotography from "../Layout/PricingPhotography";
 import PhotographyGallery from "../Components/PhotographyGallery";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import Experience from "../Layout/Experience";
+import VideoIntro from "../Layout/VideoIntro";
 
 function Photography() {
 
@@ -223,6 +224,8 @@ function Photography() {
                         </div>
                     </div>
                 </div>
+
+                <VideoIntro/>
 
                 <WhatsappFunction/>
                 <Footer/>

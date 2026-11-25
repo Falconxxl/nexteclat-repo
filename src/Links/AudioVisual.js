@@ -26,6 +26,7 @@ import PageLoader from "../Components/PageLoader";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 import Experience from "../Layout/Experience";
+import VideoIntro from "../Layout/VideoIntro";
 
 
 function AudioVisual() {
@@ -172,6 +173,7 @@ function AudioVisual() {
 
                 <OurWorkflow/>
                 <WhatsappFunction/>
+                <VideoIntro/>
                 <Footer/>
             </div>
         </>

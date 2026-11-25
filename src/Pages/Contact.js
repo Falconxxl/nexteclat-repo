@@ -9,6 +9,7 @@ import WhatsappFunction from "../Components/WhatsappFunction";
 import { useTranslation } from "react-i18next";
 
 import emailjs from '@emailjs/browser';
+import VideoIntro from "../Layout/VideoIntro";
 
 
 function Contact() {
@@ -297,6 +298,8 @@ function Contact() {
                 {/*--------------container-planner---------------*/}
 
             </div>
+
+        <VideoIntro/>
 
             <WhatsappFunction/>
             <Footer/>

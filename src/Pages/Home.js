@@ -16,6 +16,7 @@ import React, { useEffect, useState } from "react";
 import PageLoader from "../Components/PageLoader";
 import Experience from "../Layout/Experience";
 import Testimony from "../Layout/Testimony";
+import VideoIntro from "../Layout/VideoIntro";
 // import Ads from "../Layout/Ads";
 // import video_boucle_banner from "../MyVideos/z_banner40 (quality 24MB 2).mp4";
 // import video_boucle_banner_mobile from "../MyVideos/Banner_Site_ boucle (Mobile 28MB).mp4";
@@ -61,6 +62,8 @@ function Home() {
                 <Navbar2/>
 
                 <ContainerBanner2/>
+
+                <VideoIntro/>
 
                 {/*----------banner audiovisuel--------------------------------------*/}
                 {/*<header className="AudioVisual-banner">*/}

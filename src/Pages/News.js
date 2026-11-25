@@ -29,6 +29,7 @@ import PageLoader from "../Components/PageLoader";
 import NewsPartnership from "../Layout/Newspartnership";
 import Experience from "../Layout/Experience";
 import Testimony from "../Layout/Testimony";
+import VideoIntro from "../Layout/VideoIntro";
 
 function News() {
 
@@ -65,6 +66,9 @@ function News() {
                 {/*----------------Section-Recrutement (Global)-----------------*/}
 
                 <NewsPartnership/>
+
+                <VideoIntro/>
+
 
                 {/*----------------Section (Who got Bars)-----------------*/}
 

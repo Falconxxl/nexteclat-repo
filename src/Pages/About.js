@@ -24,6 +24,7 @@ import OurTeamAbout from "../Layout/OurTeamAbout";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import Experience from "../Layout/Experience";
 import Testimony from "../Layout/Testimony";
+import VideoIntro from "../Layout/VideoIntro";
 
 function About() {
     const [openQuote, setOpenQuote] = useState(false);
@@ -101,6 +102,8 @@ function About() {
                             <video className="drone-video-mobile" src={video_drone_mobile} autoPlay muted loop playsInline />
                         </div>
                     </div>
+
+                    <VideoIntro/>
 
                     {/* WHO ARE WE */}
                     <div className="Section-WhoAreWe" style={{background:"black"}}>

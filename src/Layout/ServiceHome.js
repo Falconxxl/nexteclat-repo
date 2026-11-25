@@ -5,7 +5,7 @@ import Wedding_home from "../Images/Slopez2.jpg";
 import Wedding_home2 from "../Images/photography_brenda1a.jpg";
 import laptops_home from "../Images/laptops_home8g.jpg";
 import Branding_home from "../Images/Branding_home8b.png";
-import Social_media from "../Images/Media_social2.jpg";
+import Social_media from "../Images/Media_social4.jpg";
 import logic_guitare_home from "../Images/logic_guitare_home7c.png";
 import icon_film from "../Images/icon_film3d.png";
 import icon_webdesign from "../Images/icon_webdesign2d.png";

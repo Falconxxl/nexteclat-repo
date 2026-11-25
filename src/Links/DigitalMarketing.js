@@ -20,6 +20,7 @@ import PricingDigitalMarketing from "../Layout/PricingDigitalMarketing";
 import NavbarMenuMobile from "../Layout/NavbarMenuMobile";
 import WhatsappFunction from "../Components/WhatsappFunction";
 import Experience from "../Layout/Experience";
+import VideoIntro from "../Layout/VideoIntro";
 
 function DigitalMarketing() {
 
@@ -84,6 +85,8 @@ function DigitalMarketing() {
                         <i className="fa-solid fa-angles-down"></i>
                     </Link>
                 </div>
+
+                <VideoIntro/>
 
                 <Experience/>
 

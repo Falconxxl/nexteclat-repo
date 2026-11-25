@@ -1,0 +1,438 @@
+/* =====================================================================
+   VideoIntro – toutes les mesures viennent des maquettes Z1/Z2/Z3
+   et sont exprimées en cqw (% de la largeur du bloc noir).
+   ===================================================================== */
+
+.vi-section {
+    --vi-cyan: #5BE8FF;
+    --vi-g1: #4ECAFB;
+    --vi-g2: #7F64FB;
+    /* Largeur du bloc noir desktop (ratio 1480 x 803 comme Z1) */
+    --vi-w: min(80vw, 1480px, calc((100vh - 48px) * 1.843));
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.vi-section *,
+.vi-section *::before,
+.vi-section *::after {
+    box-sizing: border-box;
+}
+
+/* ---------- Bloc noir ---------- */
+.vi-black {
+    container-type: inline-size;
+    position: relative;
+    width: var(--vi-w);
+    aspect-ratio: 1480 / 803;
+    background: #000;
+    border-radius: calc(var(--vi-w) * 0.0676);
+    overflow: hidden;
+    animation: vi-enter 0.9s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.vi-comp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------- Logo ---------- */
+.vi-logo {
+    position: absolute;
+    left: 10cqw;
+    top: 6.42cqw;
+    width: 45.95cqw;
+    height: auto;
+    display: block;
+    animation: vi-rise 0.9s 0.25s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+/* ---------- Titre (même largeur que le logo) ---------- */
+.vi-title {
+    position: absolute;
+    left: 10cqw;
+    top: 22.97cqw;
+    width: 45.95cqw;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    animation: vi-rise 0.9s 0.4s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.vi-title svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.vi-title text {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 55px;
+    font-weight: 500;
+    fill: #FFFFFF;
+}
+
+/* ---------- Bouton Play ---------- */
+.vi-play {
+    --ring: 0.4cqw;
+    position: absolute;
+    left: 27.8cqw;
+    top: 32.2cqw;
+    width: 13.04cqw;
+    height: 13.04cqw;
+    z-index: 3;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    animation: vi-rise 0.9s 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+/* Anneau dégradé */
+.vi-play::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: var(--ring);
+    background: linear-gradient(120deg, var(--vi-g1) 10%, var(--vi-g2) 75%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+/* Disque blanc (apparaît au survol / à l'appui) : recouvre aussi l'anneau */
+.vi-play::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+/* Le triangle ne change jamais */
+.vi-play-icon {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+@media (hover: hover) {
+    .vi-play:hover::after {
+        opacity: 1;
+    }
+
+    .vi-play:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 5cqw rgba(91, 232, 255, 0.3);
+    }
+}
+
+/* Tactile / clavier : état « appuyé » sans dépendre du hover */
+.vi-play:active::after {
+    opacity: 1;
+}
+
+.vi-play:active {
+    transform: scale(0.94);
+}
+
+.vi-play:focus-visible {
+    outline: 3px solid var(--vi-cyan);
+    outline-offset: 5px;
+}
+
+/* ---------- Cadre photo / vidéo ---------- */
+.vi-frame {
+    --r: 6.6cqw;
+    --ring: 0.55cqw;
+    position: absolute;
+    z-index: 2;
+    left: 64.2cqw;
+    top: 6.28cqw;
+    width: 28.1cqw;
+    height: 42.4cqw;
+    padding: var(--ring);
+    border-radius: var(--r);
+    background: linear-gradient(100deg, var(--vi-cyan) 0%, var(--vi-cyan) 12%, #FFFFFF 75%);
+    transition:
+            left 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+            top 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+            width 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+            height 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+            border-radius 0.9s ease;
+    animation: vi-rise 1s 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.vi-media {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: calc(var(--r) - var(--ring));
+    overflow: hidden;
+    background: #000;
+    isolation: isolate;
+    transition: border-radius 0.9s ease;
+}
+
+.vi-image-layer,
+.vi-video-layer {
+    position: absolute;
+    inset: 0;
+}
+
+.vi-image-layer {
+    z-index: 1;
+    transition: opacity 0.7s ease, transform 0.9s ease;
+}
+
+.vi-image-layer.is-hidden {
+    opacity: 0;
+    transform: scale(1.03);
+    pointer-events: none;
+}
+
+.vi-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.vi-video-layer {
+    z-index: 3;
+    opacity: 0;
+    background: #000;
+    transition: opacity 0.7s ease;
+}
+
+.vi-video-layer.is-visible {
+    opacity: 1;
+}
+
+.vi-iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* ---------- Passage en lecture : le cadre prend le ratio de la vidéo ---------- */
+.is-playing .vi-frame {
+    --r: 3cqw;
+    --ring: 0.4cqw;
+    left: 11cqw;
+    top: 5.19cqw;
+    width: 78cqw;
+    height: 43.88cqw; /* 16:9 */
+}
+
+.is-playing .vi-logo,
+.is-playing .vi-title,
+.is-playing .vi-play {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(8px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0s linear 0.4s;
+}
+
+/* ---------- Chargement ---------- */
+.vi-loader {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.55);
+    animation: vi-fade 0.3s ease both;
+}
+
+.vi-spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg, rgba(78, 202, 251, 0), var(--vi-g1) 50%, var(--vi-g2));
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 5px), #000 calc(100% - 4px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 5px), #000 calc(100% - 4px));
+    animation: vi-spin 0.9s linear infinite;
+}
+
+.vi-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* ---------- Repli ---------- */
+.vi-fallback {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.vi-fallback p {
+    margin: 0;
+}
+
+.vi-fallback a {
+    padding: 12px 24px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--vi-g1), var(--vi-g2));
+}
+
+/* ---------- Animations ---------- */
+@keyframes vi-enter {
+    from { opacity: 0; transform: translateY(24px) scale(0.985); }
+    to   { opacity: 1; transform: none; }
+}
+
+@keyframes vi-rise {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: none; }
+}
+
+@keyframes vi-spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes vi-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* =====================================================================
+   MOBILE – composition verticale de Z3 (canvas 933 x 1698)
+   ===================================================================== */
+@media (max-width: 767px) {
+    .vi-section {
+        height: auto;
+        min-height: 100svh;
+        background: #000;
+        align-items: stretch;
+        overflow-x: hidden;
+    }
+
+    .vi-black {
+        width: 100%;
+        aspect-ratio: auto;
+        min-height: 100svh;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .vi-comp {
+        flex: none;
+        height: auto;
+        aspect-ratio: 933 / 1698;
+    }
+
+    .vi-frame {
+        --r: 8.2cqw;
+        --ring: 1.25cqw;
+        left: 14.7cqw;
+        top: 24.1cqw;
+        width: 71.9cqw;
+        height: 63.4cqw;
+    }
+
+    .vi-image {
+        object-position: 50% 30%;
+    }
+
+    .vi-logo {
+        left: 17.4cqw;
+        top: 96.1cqw;
+        width: 66.8cqw;
+    }
+
+    .vi-title {
+        left: 17.5cqw;
+        top: 123.3cqw;
+        width: 67.5cqw;
+    }
+
+    .vi-play {
+        --ring: 0.65cqw;
+        left: 37.4cqw;
+        top: 138.3cqw;
+        width: 24.4cqw;
+        height: 24.4cqw;
+    }
+
+    /* Lecture : le cadre passe en 9:16 (Shorts) */
+    .is-playing .vi-frame {
+        --r: 6cqw;
+        --ring: 0.9cqw;
+        left: 11cqw;
+        top: 21.6cqw;
+        width: 78cqw;
+        height: 138.7cqw;
+    }
+}
+
+/* ---------- Mouvement réduit ---------- */
+@media (prefers-reduced-motion: reduce) {
+    .vi-black,
+    .vi-logo,
+    .vi-title,
+    .vi-play,
+    .vi-frame,
+    .vi-loader {
+        animation: none;
+    }
+
+    .vi-frame,
+    .vi-media,
+    .vi-image-layer,
+    .vi-video-layer,
+    .vi-play,
+    .vi-play::after,
+    .is-playing .vi-logo,
+    .is-playing .vi-title,
+    .is-playing .vi-play {
+        transition: none;
+    }
+
+    .vi-spinner {
+        animation-duration: 2.5s;
+    }
+}
